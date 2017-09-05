@@ -1,3 +1,11 @@
 {
-    "python.pythonPath": "D:/Anaconda3/envs/py36_jobboleSpider/python"
+    "python.pythonPath": "D:/Anaconda3/envs/py36_jobboleSpider/python",
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        ".\\jobboleSpider",
+        "-p",
+        "test*.py"
+    ],
+    "python.unitTest.unittestEnabled": true
 }
