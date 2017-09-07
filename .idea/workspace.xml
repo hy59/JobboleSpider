@@ -34,8 +34,8 @@
       <file leaf-file-name="jobbole.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jobboleSpider/jobboleSpider/spiders/jobbole.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+            <state relative-caret-position="240">
+              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -102,6 +102,19 @@
               <item name="JobboleSpider" type="462c0819:PsiDirectoryNode" />
               <item name="jobboleSpider" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JobboleSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JobboleSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="jobboleSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="jobboleSpider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JobboleSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JobboleSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="jobboleSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="jobboleSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -165,6 +178,14 @@
       <option name="presentableId" value="Default" />
       <updated>1504600707085</updated>
     </task>
+    <task id="LOCAL-00001" summary="use xpath to find info">
+      <created>1504776436792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1504776436792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -211,12 +232,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="use xpath to find info" />
+    <option name="LAST_COMMIT_MESSAGE" value="use xpath to find info" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/jobboleSpider/jobboleSpider/spiders/jobbole.py</url>
-          <line>33</line>
+          <line>37</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
@@ -315,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jobboleSpider/jobboleSpider/spiders/jobbole.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        <state relative-caret-position="240">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>

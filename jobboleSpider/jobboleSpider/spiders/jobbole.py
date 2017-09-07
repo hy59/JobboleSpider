@@ -6,9 +6,13 @@ import re
 class JobboleSpider(scrapy.Spider):
     name = "jobbole"
     allowed_domains = ["blog.jobbole.com"]
-    start_urls = ['http://blog.jobbole.com/110832/']
+    start_urls = ['http://blog.jobbole.com/all-posts/']
 
     def parse(self, response):
+        # get all articles post urls
+        post_urls = response.css('#archive .floated-thumb .post-thumb a::attr(href)').extract()
+        for post_url in post_urls:
+            print(post_url)
         # title
         title = response.xpath('//div[@class="entry-header"]/h1/text()').extract()[0]
         # create_date
